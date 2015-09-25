@@ -106,6 +106,12 @@ a {
     text-decoration: none;
 }
 
+.blaze {
+    height: 10px;
+    width: 10px;
+    float: right;
+}
+
 
 /* ==========================================================================
    Helper classes
