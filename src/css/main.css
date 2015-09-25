@@ -88,20 +88,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.logo {
+    float: left;
+}
 
+.controls {
+    float: right;
+    padding: 3%;
+}
 
+hr {
+    float: left;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+a {
+    text-decoration: none;
+}
 
 
 /* ==========================================================================
