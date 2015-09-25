@@ -100,10 +100,17 @@ textarea {
 hr {
     float: left;
     width: 100%;
+    box-shadow: 2px 2px 2px grey;
 }
 
 a {
     text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+a:hover {
+    text-shadow: 5px 5px 2px grey;
 }
 
 .blaze {
@@ -112,7 +119,22 @@ a {
     float: right;
 }
 
+.connections {
+    float: left;
+    margin: 5% 5% 5% 20%;
+    padding: 2%;
+    box-shadow: 2px 2px 2px grey;
+    border: thin solid;
+}
 
+h1 {
+    font-family: arial, sans-serif;
+}
+
+.connection {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
