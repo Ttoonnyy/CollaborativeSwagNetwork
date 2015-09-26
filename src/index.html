@@ -20,37 +20,60 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="CSN">
-                </a>
-            </div>
-            <div class="controls">
-                <a href="" onclick="alert('This does nothing.')">Logout</a> |
-                <a href="" onclick="alert('You guessed it, this does nothing.')">Sign Up</a> |
-                <a href="" onclick="alert('This also does nothing.')">Settings</a>
-            </div>
-            <div class="searchbar">
-                <input alt="searchbar" type="search" id="searchbox" onclick="document.getElementById('searchbox').value = ''">
-                <img src="img/searchLogo.png" alt="search">
-            </div>
-        </header>
-        <hr>
-        <div class="connections">
-            <h1>Connections</h1>
+        <div id="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="CSN">
+                    </a>
+                </div>
+                <div class="controls">
+                    <a href="" onclick="alert('This does nothing.')">Logout</a> |
+                    <a href="" onclick="alert('You guessed it, this does nothing.')">Sign Up</a> |
+                    <a href="" onclick="alert('This also does nothing.')">Settings</a>
+                </div>
+                <div class="searchbar">
+                    <input alt="searchbar" type="search" id="searchbox" onclick="document.getElementById('searchbox').value = ''">
+                    <div id="searchLogo">
+                        <img src="img/searchLogo.png" alt="search">
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="img/timmy.jpg"> | Timmy Trumpet
+                </div>
+            </header>
             <hr>
-            <div class="connection">
-                <img src="img/online.png" alt="online"> | <img src="img/johnCena.jpg" alt="John Cena" onclick="var audio = new Audio('audio/johnCena.mp3'); audio.play();"> John Cena
+            <div class="connections">
+                <h1>Connections</h1>
+                <hr>
+                <div class="connection">
+                    <img src="img/online.png" alt="online"> | <img src="img/johnCena.jpg" alt="John Cena" onclick="var audio = new Audio('audio/johnCena.mp3'); audio.play();"> John Cena
+                </div>
+                <div class="connection">
+                    <img src="img/offline.png" alt="offline"> | <img src="img/morganFreeman.jpg" alt="Morgan Freeman" onclick="var audio2 = new Audio('audio/morganFreeman.mp3'); audio2.play()"> Morgan Freeman
+                </div>
+                <div class="connection">
+                    <img src="img/online.png" alt="online"> | <img src="img/doge.jpg" alt="Doge"> Doge
+                </div>
             </div>
-            <div class="connection">
-                <img src="img/offline.png" alt="offline"> | <img src="img/morganFreeman.jpg" alt="Morgan Freeman" onclick="var audio2 = new Audio('audio/morganFreeman.mp3'); audio2.play()"> Morgan Freeman
-            </div>
-            <div class="connection">
-                <img src="img/online.png" alt="online"> | <img src="img/doge.jpg" alt="Doge"> Doge
-            </div>
+            <hr>
+            <footer>
+                <div id="policy">
+                    <a href="">tour</a> | <a href="">help</a> | <a href="">chat</a>
+                    | <a href="">data</a> | <a href="">legal</a> | <a href="">privacy policy</a> | <a href="">careers</a> | <a href="">advertising info</a> | mobile | contact us | feedback
+                </div>
+                <div id="copyright">
+                    <script language="JavaScript">
+                        <!--
+                        document.write('&copy;' );
+                        document.write(' David Griffith-Cant, Tyler Harris and Tony Goodwin');
+                        document.write('  2015 - ');
+                        document.write(new Date().getFullYear());
+                        //-->
+                    </script>
+                </div>
+            </footer>
         </div>
-        <img src="img/420.png" class="blaze" onclick="var audio3 = new Audio('audio/blazeit.mp3'); audio3.play();">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
