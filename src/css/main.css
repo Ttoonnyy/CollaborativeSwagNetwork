@@ -135,6 +135,18 @@ h1 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.searchbar {
+    padding: 3%;
+    width: 30%;
+    margin-left: 20%;
+}
+
+#searchbox {
+    width: 90%;
+    border: thin solid;
+    padding: 1%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
