@@ -166,6 +166,68 @@ footer {
 .user {
     padding: 3%;
 }
+
+.projectexplorer {
+    padding: 2%;
+    box-shadow: 2px 2px 2px grey;
+    border: thin solid;
+    height: 100%;
+    margin-bottom: 20%;
+}
+
+.directoryname {
+    font-size: large;
+    text-decoration: underline;
+}
+
+.file {
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.liveeditors {
+    padding: 2%;
+    box-shadow: 2px 2px 2px grey;
+    border: thin solid;
+    height: 100%;
+    margin-bottom: 20%;
+}
+
+.leftnavigation {
+    float: left;
+    width: 20%;
+}
+
+.editbox {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    height: 400px;
+}
+
+.EditingArea {
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+}
+.rightnavigation {
+    float: right;
+    height: 100%;
+    width: 30%;
+}
+
+.githubexplorer {
+    padding: 2%;
+    box-shadow: 2px 2px 2px grey;
+    border: thin solid;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.githubpush {
+    margin-top: 5%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
