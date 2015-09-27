@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/dist/css/main.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/css/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/login.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/logout.php.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/room.html" charset="UTF-8" />
   </component>

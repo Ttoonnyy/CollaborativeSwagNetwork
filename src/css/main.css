@@ -228,6 +228,29 @@ footer {
     margin-top: 5%;
 }
 
+.login {
+    display: inline-block;
+    padding: 2%;
+    box-shadow: 2px 2px 2px grey;
+    border: thin solid;
+    height: 100%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    width: 30%;
+    text-align: center;
+}
+
+.loginbutton {
+    margin-top: 5%;
+}
+
+.username {
+    margin: 2%;
+}
+
+.password {
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

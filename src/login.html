@@ -28,7 +28,7 @@
             </a>
         </div>
         <div class="controls">
-            <a href="" onclick="window.location.replace('login.html')">Logout</a> |
+            <a href="" onclick="alert('This does nothing.')">Login</a> |
             <a href="" onclick="alert('You guessed it, this does nothing.')">Sign Up</a> |
             <a href="" onclick="alert('This also does nothing.')">Settings</a>
         </div>
@@ -39,88 +39,20 @@
             </div>
         </div>
         <div class="user">
-            <img src="img/timmy.jpg"> Timmy Trumpet
         </div>
     </header>
     <hr>
-    <div class="leftnavigation">
-        <div class="projectexplorer">
-            <h1>Project Explorer</h1>
-            <hr>
-            <div class="directories">
-                <p class="directoryname">North Korean Space System</p>
-                <div class="file">
-                    <img src="img/htmlicon.png"> | index.html
-                </div>
-                <div>
-                    <img src="img/htmlicon.png"> | holyhandgrenade.html
-                </div>
-                <div>
-                    <img src="img/htmlicon.png"> | memes.html
-                </div>
+        <div class="login">
+            <div class="username">
+                <label for="username">Username: </label>
+                <input type="text" id="username">
             </div>
-        </div>
-        <div class="liveeditors">
-            <h1>Live Editors</h1>
-            <hr>
-            <div class="user">
-                <img src="img/timmy.jpg"> Timmy Trumpet
+            <div class="password">
+                <label for="password">Password: </label>
+                <input type="password" id="password">
             </div>
+            <input type="button" value="Login" class="loginbutton" onclick="window.location.replace('index.html')">
         </div>
-    </div>
-    <div class="editbox">
-        <h1>Edit Box</h1>
-            <textarea class="EditingArea">
-               <!doctype html>
-                    <html class="no-js" lang="">
-                    <head>
-                        <meta charset="utf-8">
-                        <meta http-equiv="x-ua-compatible" content="ie=edge">
-                        <title>North Korean Space System</title>
-                        <meta name="description" content="">
-                        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-                        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-                        <!-- Place favicon.ico in the root directory -->
-
-                        <link rel="stylesheet" href="css/normalize.css">
-                        <link rel="stylesheet" href="css/main.css">
-                        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-                    </head>
-                    <body>
-                    <p>This is a page</p>
-                    </body>
-                    </html>
-            </textarea>
-    </div>
-    <div class="rightnavigation">
-        <div class="githubexplorer">
-            <h1>Github Explorer</h1>
-            <hr>
-            <div class="directories">
-                <p class="directoryname">North Korean Space System</p>
-                <div class="file">
-                    <img src="img/htmlicon.png"> | Master
-                </div>
-                <div>
-                    <img src="img/htmlicon.png"> | A1
-                </div>
-                <div>
-                    <img src="img/htmlicon.png"> | A2
-                </div>
-                <div class="githubpush">
-                    <input class="githubpush" type="button" value="Push to Github">
-                </div>
-            </div>
-        </div>
-        <div class="editboxcontrols">
-            <h1>Edit Box Control</h1>
-            <hr>
-            <input type="button" value="Apply">
-            <input type="button" value="Save">
-            <input type="button" value="Undo">
-        </div>
-    </div>
     <hr class="footer">
     <footer>
         <div id="policy">
