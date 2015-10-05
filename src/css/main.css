@@ -164,7 +164,7 @@ footer {
 }
 
 .user {
-    padding: 3%;
+    display: inline;
 }
 
 .projectexplorer {
@@ -250,6 +250,13 @@ footer {
 
 .password {
 
+}
+
+footer {
+   float: left;
+    margin-left: 20%;
+    margin-top: 0%;
+    padding: 3%;
 }
 /* ==========================================================================
    Helper classes
